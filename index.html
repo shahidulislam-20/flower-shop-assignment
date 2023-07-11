@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -11,23 +14,26 @@
     <main>
          <!-- Start Header Section -->
         <header class="header-section">
-            <div class="header-description">
-                <h1>Let's make beautiful flowers a part of your life</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable 
-                    content of a page when looking at its layout. The point of using Lorem Ipsum is 
-                    that it has a more-or-less normal distribution of letters.
-                </p>
-                <button class="btn">Shop Now</button>
+            <div class="header-container">
+                <div class="header-description">
+                    <h1>Let's make beautiful flowers a part of your life</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable 
+                        content of a page when looking at its layout. The point of using Lorem Ipsum is 
+                        that it has a more-or-less normal distribution of letters.
+                    </p>
+                    <button class="btn">Shop Now</button>
+                </div>
+                <div class="header-image">
+                    <img src="images/pngwing 10.png" alt="header-image">
+                </div>
             </div>
-            <div class="header-image">
-                <img src="images/pngwing 10.png" alt="header-image">
-            </div>
+            
         </header>
         <!-- End Header Section -->
 
         <!-- Start Featured Section -->
         <section class="featured-section">
-            <div class="section-heading">
+            <div class="section-header">
                 <h3>Our Featured Flowers</h3>
                 <p>It is a long established fact that a reader will be distracted by the readable 
                     content of a page when looking at its layout.
@@ -35,24 +41,24 @@
             </div>
             <div class="featured-container">
                 <div class="featured-flower">
-                    <div class="flower-image">
-
+                    <div class="flower-image image1">
+                        <img src="images/pngwing 6.png" alt="flower">
                     </div>
-                    <div class="flower-caption"><a href="#"></a></div>
+                    <div class="flower-caption"><a href="#">Pink Flower Tree</a></div>
                 </div>
 
                 <div class="featured-flower">
-                    <div class="flower-image">
-
+                    <div class="flower-image image2">
+                        <img src="images/pngwing 5.png" alt="flower">
                     </div>
-                    <div class="flower-caption"><a href="#"></a></div>
+                    <div class="flower-caption"><a href="#">Pink Flower Tree</a></div>
                 </div>
 
                 <div class="featured-flower">
-                    <div class="flower-image">
-
+                    <div class="flower-image image3">
+                        <img src="images/pngwing 7.png" alt="">
                     </div>
-                    <div class="flower-caption"><a href="#"></a></div>
+                    <div class="flower-caption"><a href="#">Pink Flower Tree</a></div>
                 </div>
             </div>
         </section>
@@ -61,18 +67,22 @@
         <!-- Start Deal Section -->
 
         <section class="deal-section">
-            <div class="deal-info">
-                <div class="section-header">
-                    <h3>Hot Deal ! Sale Up To 25% Of</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable 
-                        content of a page when looking at its layout
-                    </p>
+            <section class="deal-section-container">
+                <div class="deal-info">
+                    <div class="section-header">
+                        <h3>Hot Deal ! Sale Up To 25% Of</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable 
+                            content of a page when looking at its layout
+                        </p>
+                    </div>
+                    <div class="deal-btn">
+                        <button class="btn">Sign Up</button>
+                    </div>
                 </div>
-                <button class="btn">Sign Up</button>
-            </div>
-            <div class="deal-image">
-
-            </div>
+                <div class="deal-image">
+                    <img src="images/pngwing 8.png" alt="flower">
+                </div>
+            </section>
         </section>
 
         <!-- End Deal Section -->
@@ -88,16 +98,16 @@
             </div>
             <div class="insta-flower-container">
                 <div class="insta-flower">
-
+                    <img src="images/Rectangle 4.png" alt="flower">
                 </div>
                 <div class="insta-flower">
-                    
+                    <img src="images/Rectangle 5.png" alt="flower">
                 </div>
                 <div class="insta-flower">
-                    
+                    <img src="images/Rectangle 6.png" alt="flower">
                 </div>
                 <div class="insta-flower">
-                    
+                    <img src="images/Flower 01.png" alt="flower">
                 </div>
             </div>
         </section>
@@ -113,7 +123,7 @@
             </div>
             <div class="getin-sub">
                 <div class="sub-email">
-                    <input type="email">
+                    <input type="email" placeholder="Enter your email here...">
                 </div>
                 <button class="btn">Subscribe</button>
             </div>
